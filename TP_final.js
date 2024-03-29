@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 pokemonDetailsElement.innerHTML = `
                 <h2>${pokemon.name}</h2>
                 <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}">
-                <p><strong>Poids du pokémon : </strong> ${pokemon.weight}</p>
-                <p>HP : ${pokemon.stats[0].base_stat} 
+                <p><strong>Statistiques du pokémon </strong></p>
+                <p> HP : ${pokemon.stats[0].base_stat} 
                 |   Attack: ${pokemon.stats[1].base_stat} 
                 | Defense: ${pokemon.stats[2].base_stat} 
                 | SP Attack: ${pokemon.stats[3].base_stat} 

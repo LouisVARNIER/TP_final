@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}">
                 <p><strong>Statistiques du pokémon </strong></p>
                 <p> HP : ${pokemon.stats[0].base_stat} 
-                |   Attack: ${pokemon.stats[1].base_stat} 
+                | Attack: ${pokemon.stats[1].base_stat} 
                 | Defense: ${pokemon.stats[2].base_stat} 
                 | SP Attack: ${pokemon.stats[3].base_stat} 
                 | SP Defense: ${pokemon.stats[4].base_stat}  

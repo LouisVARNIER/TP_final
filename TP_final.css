@@ -1,0 +1,9 @@
+.position-stats {
+    position: fixed;
+    top: 150px; 
+    right: 400px; 
+  }
+
+.couleur-fond{
+    background-color: lightblue;
+}
